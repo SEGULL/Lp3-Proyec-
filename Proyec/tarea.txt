@@ -1,0 +1,2 @@
+Para todos:
+	Agregar un Log en la clase MainActivity en el cual escriban su nombre
