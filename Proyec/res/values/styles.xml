@@ -1,14 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+            backward-compatibility can go here.
         -->
     </style>
 
@@ -16,161 +17,133 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
- <style name="estandar2">
-        
+
+    <style name="estandar2">
         <item name="android:textColorHint">#843262</item>
-        
         <item name="android:layout_width">80pt</item>
-       <item name="android:layout_height">15pt</item>
-       <item name="android:layout_marginTop">80dp</item>
+        <item name="android:layout_height">15pt</item>
+        <item name="android:layout_marginTop">80dp</item>
     </style>
-    
+
     <style name="estandar3">
-        
         <item name="android:textColorHint">#843262</item>
-        
         <item name="android:layout_width">60pt</item>
-       <item name="android:layout_height">15pt</item>
-       <item name="android:layout_marginTop">140dp</item>
+        <item name="android:layout_height">15pt</item>
+        <item name="android:layout_marginTop">140dp</item>
     </style>
+
     <style name="estandar4">
-        
         <item name="android:textColorHint">#843262</item>
-        
         <item name="android:layout_width">60pt</item>
-       <item name="android:layout_height">15pt</item>
-       <item name="android:layout_marginTop">140dp</item>
-       
-       
-       <item name="android:layout_alignBottom">@+id/editText4</item>  
-       <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_height">15pt</item>
+        <item name="android:layout_marginTop">140dp</item>
+        <item name="android:layout_alignBottom">@+id/editText4</item>
+        <item name="android:layout_alignParentRight">true</item>
     </style>
-    
+
     <style name="estandar5">
-        
         <item name="android:textColorHint">#843262</item>
-        
         <item name="android:layout_width">60pt</item>
-       <item name="android:layout_height">15pt</item>
-       <item name="android:layout_marginTop">190dp</item>
-       
-       
-       <item name="android:layout_alignBottom">@+id/editText5</item>  
-       <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_height">15pt</item>
+        <item name="android:layout_marginTop">190dp</item>
+        <item name="android:layout_alignBottom">@+id/editText5</item>
+        <item name="android:layout_alignParentRight">true</item>
     </style>
+
     <style name="estandar6">
-        
         <item name="android:textColorHint">#843262</item>
-        
         <item name="android:layout_width">60pt</item>
-       <item name="android:layout_height">15pt</item>
-       <item name="android:layout_marginTop">190dp</item>
-       
-       
-       <item name="android:layout_alignBottom">@+id/editText6</item>  
-       
+        <item name="android:layout_height">15pt</item>
+        <item name="android:layout_marginTop">190dp</item>
+        <item name="android:layout_alignBottom">@+id/editText6</item>
     </style>
-    
+
     <style name="estandar7">
-        
         <item name="android:textColorHint">#843262</item>
         <item name="android:layout_width">120pt</item>
-       <item name="android:layout_height">15pt</item>
-       <item name="android:layout_marginTop">230dp</item>
-       
-       <item name="android:layout_alignBottom">@+id/editText6</item>  
-       
+        <item name="android:layout_height">15pt</item>
+        <item name="android:layout_marginTop">230dp</item>
+        <item name="android:layout_alignBottom">@+id/editText6</item>
     </style>
-    
-    
+
     <style name="NombreEstandar">
         <item name="android:textColorHint">#843262</item>
-        
         <item name="android:layout_width">80pt</item>
-       <item name="android:layout_height">15pt</item>
+        <item name="android:layout_height">15pt</item>
     </style>
-   
-     
+
     <style name="botton">
-		<item name="android:paddingRight">5pt</item>		
+        <item name="android:paddingRight">5pt</item>
         <item name="android:layout_width">40pt</item>
-       <item name="android:layout_height">15pt</item>
-       <item name="android:text">@string/Nombreboton</item>  
-       <item name="android:layout_alignBottom">@+id/editText2</item>  
-       <item name="android:layout_alignParentRight">true</item>  
-       <item name="android:textSize">4pt</item>
+        <item name="android:layout_height">15pt</item>
+        <item name="android:text">@string/Nombreboton</item>
+        <item name="android:layout_alignBottom">@+id/editText2</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">4pt</item>
     </style>
-    
+
     <style name="titulo">
         <item name="android:layout_marginTop">35dp</item>
         <item name="android:textSize">5pt</item>
         <item name="android:layout_width">90dp</item>
-       <item name="android:layout_height">30dp</item>
+        <item name="android:layout_height">30dp</item>
     </style>
+
     <style name="titulociclo">
         <item name="android:layout_marginTop">35dp</item>
         <item name="android:textSize">10pt</item>
         <item name="android:layout_width">90dp</item>
-       <item name="android:layout_height">30dp</item>
-      
+        <item name="android:layout_height">30dp</item>
     </style>
+
     <style name="busquedaciclo">
-      
         <item name="android:layout_marginTop">35dp</item>
-         <item name="android:layout_width">220dp</item>
-       <item name="android:layout_height">30dp</item>
-         <item name="android:layout_alignParentRight">true</item>
-         <item name="android:textSize">18dp</item>
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">18dp</item>
     </style>
-	
-    
+
     <style name="escala">
         <item name="android:layout_marginTop">100dp</item>
-  
         <item name="android:layout_width">120dp</item>
-       <item name="android:layout_height">120dp</item>
+        <item name="android:layout_height">120dp</item>
     </style>
+
     <style name="escalaaa">
         <item name="android:layout_marginTop">10dp</item>
-  <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentRight">true</item>
         <item name="android:layout_width">120dp</item>
-       <item name="android:layout_height">120dp</item>
+        <item name="android:layout_height">120dp</item>
     </style>
-    
-    
+
     <style name="intro">
         <item name="android:layout_marginTop">100dp</item>
-  <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentRight">true</item>
         <item name="android:layout_width">120dp</item>
-       <item name="android:layout_height">120dp</item>
-       
+        <item name="android:layout_height">120dp</item>
     </style>
-    
-    
+
     <style name="escala1">
         <item name="android:layout_marginTop">100dp</item>
-    <item name="android:layout_width">120dp</item>
-       <item name="android:layout_height">120dp</item>
-         <item name="android:layout_alignParentRight">true</item>
-        
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_alignParentRight">true</item>
     </style>
-    
-     <style name="escala2">
+
+    <style name="escala2">
         <item name="android:layout_marginTop">250dp</item>
-    <item name="android:layout_width">120dp</item>
-       <item name="android:layout_height">120dp</item>
-        
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
     </style>
-    
-      <style name="escala3">
+
+    <style name="escala3">
         <item name="android:layout_marginTop">250dp</item>
-    <item name="android:layout_width">120dp</item>
-       <item name="android:layout_height">120dp</item>
-         <item name="android:layout_alignParentRight">true</item>
-        
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_alignParentRight">true</item>
     </style>
-    
-      
+
     <style name="txtTituloInicioSesion">
         <item name="android:textSize">32sp</item>
         <item name="android:typeface">normal</item>
@@ -200,4 +173,22 @@
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:padding">8dp</item>
     </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
 </resources>

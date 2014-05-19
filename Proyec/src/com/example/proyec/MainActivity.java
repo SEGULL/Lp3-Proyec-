@@ -1,13 +1,11 @@
 package com.example.proyec;
 
-
-
-import java.util.logging.Logger;
+import java.io.Closeable;
+import java.nio.channels.ClosedByInterruptException;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
@@ -18,42 +16,37 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
-		Log.d("segundo", "canahuire");
-		Log.d("neal", "puma");
-		
 	}
 
 	
 	public void validarIngreso(View view) {
 
 		EditText usuario = (EditText) findViewById(R.id.txtUsuario);
-		EditText passw = (EditText) findViewById(R.id.txtPasswd);
-
+		EditText passw = (EditText) findViewById(R.id.txtPasswd);	
 		
-//		if (usuario.equals("segundo") && passw.equals("123")) {
+//		switch (usuario && passw) {
+//		
+//		case "segundo"&& :
+//			Intent intent = new Intent(getApplicationContext(), MainActivity1.class);		
+//			startActivity(intent);
+//			
+//			break;
+//
+//		default:
+//			break;
+//		}
+		if (usuario.equals("segundo") && passw.equals("123")) {
 			Intent intent = new Intent(getApplicationContext(), MainActivity1.class);		
 			startActivity(intent);
-			
-			startService(intent);
-		
-			
-//		} else {
-//			
-//					Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-//
-//					intent.putExtra("no tines acceso", usuario.getText().toString());
-//
-//					stopService(intent);
-//					
-//				}
-				
-				
-			}
+		} else { if (usuario.equals("neal") && passw.equals("123")) {
+			Intent intenttt = new Intent(getApplicationContext(), MainActivity3.class);
+		    startActivity(intenttt);			
+		       }			
+		    Intent intentt = new Intent(getApplicationContext(), FullscreenActivity0.class);
+		    startActivity(intentt);
+		}
 	
-
-	
-		
+	}		
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
