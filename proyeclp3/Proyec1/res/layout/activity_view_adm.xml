@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7DFBB"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ViewAdm" >
+
+    <Button
+        android:id="@+id/btn_escuela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="42dp"
+        android:text="Por Escuela" />
+
+    <Button
+        android:id="@+id/btn_cerrar_seccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Cerrar Seccion" />
+
+    <Button
+        android:id="@+id/btn_estadisticas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_escuela"
+        android:layout_below="@+id/btn_facultad"
+        android:layout_marginTop="62dp"
+        android:text="Estadistica" />
+
+    <Button
+        android:id="@+id/btn_facultad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_escuela"
+        android:layout_centerVertical="true"
+        android:text="Por Facultad" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_cerrar_seccion"
+        android:layout_alignBottom="@+id/btn_cerrar_seccion"
+        android:layout_alignParentLeft="true"
+        android:text="Reporte De Matricula" />
+
+</RelativeLayout>

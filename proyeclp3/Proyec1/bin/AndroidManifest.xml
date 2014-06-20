@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyec1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.proyec1.Bloq"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.proyec1.Log"
+            android:label="@string/title_activity_log" >
+        </activity>
+        <activity
+            android:name="com.example.proyec1.RegistrarPer"
+            android:label="@string/title_activity_registrar_per" >
+        </activity>
+        <activity
+            android:name="com.example.proyec1.Inicio"
+            android:label="@string/title_activity_inicio" >
+        </activity>
+        <activity
+            android:name="com.example.proyec1.Financiero"
+            android:label="@string/title_activity_financiero" >
+        </activity>
+        <activity
+            android:name="com.example.proyec1.SemestreView"
+            android:label="@string/title_activity_semestre_view" >
+        </activity>
+        <activity
+            android:name="com.example.proyec1.ViewAdm"
+            android:label="@string/title_activity_view_adm" >
+        </activity>
+        <activity
+            android:name="com.example.proyec1.EscuelaAcademica"
+            android:label="@string/title_activity_escuela_academica" >
+        </activity>
+        <activity
+            android:name="com.example.proyec1.ViewEscuelas"
+            android:label="@string/title_activity_view_escuelas" >
+        </activity>
+        <activity
+            android:name="com.example.proyec1.ViewFacultades"
+            android:label="@string/title_activity_view_facultades" >
+        </activity>
+        <activity
+            android:name="com.example.proyec1.ViewEstadisticas"
+            android:label="@string/title_activity_view_estadisticas" >
+        </activity>
+    </application>
+
+</manifest>

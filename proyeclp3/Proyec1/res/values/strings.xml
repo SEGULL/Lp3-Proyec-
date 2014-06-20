@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Proyec1</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_log">Log</string>
+    <string name="title_activity_registrar_per">RegistrarPer</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="msg_compartir">Ingresar</string>
+    <string name="title_activity_financiero">Financiero</string>
+    <string name="title_activity_semestre_view">SemestreView</string>
+    <string name="title_activity_view_adm">ViewAdm</string>
+    <string name="title_activity_escuela_academica">EscuelaAcademica</string>
+    <string name="matriculadosvirtualmente">Alumnos Matriculados Virtualmente</string>
+    <string name="matriculapresencial">Matriculados Presencial</string>
+    <string name="cantidadnomatriculaso">alumnos no Matriculados</string>
+    <string name="matriculaderivada">Modalidad de matricula</string>
+    <string name="facultad">Facultades</string>
+    <string name="title_activity_view_escuelas">ViewEscuelas</string>
+    <string name="title_activity_view_facultades">ViewFacultades</string>
+    <string name="title_activity_view_estadisticas">ViewEstadisticas</string>
+    <string name="semestre">Semestre</string>
+    <string name="canalumnos">Cantidad Total Alumnos</string>
+
+</resources>

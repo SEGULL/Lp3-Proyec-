@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7DFBB"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Log" >
+
+            <Button
+                android:id="@+id/btn_regnewuser"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/btn_ingresar"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/btn_ingresar"
+                android:text="Cancelar" />
+
+            <EditText
+                android:id="@+id/txt_passs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_userrr"
+                android:layout_below="@+id/txt_userrr"
+                android:ems="10"
+                android:hint="password"
+                android:imeActionId="@+id/login"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btn_ingresar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_passs"
+                android:layout_centerVertical="true"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="Ingresar" />
+
+            <EditText
+                android:id="@+id/txt_userrr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="76dp"
+                android:ems="10"
+                android:hint="User"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_userrr"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="92dp"
+                android:layout_marginTop="44dp"
+                android:text="Welcome To System" />
+    
+</RelativeLayout>
