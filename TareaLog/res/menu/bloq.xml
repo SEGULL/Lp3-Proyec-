@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item
+        android:id="@+id/Cerrar"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Cerrar Seccion"
+        />
+    <item
+        android:id="@+id/Iniciar"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Iniciar"/>
+</menu>

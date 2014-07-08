@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_escuela"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="escuela"/>
+    <item
+        android:id="@+id/action_facultad"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="facultad"/>
+    <item
+        android:id="@+id/action_estadistica"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="estadisticos generales"/>
+    <item
+        android:id="@+id/action_cerrar"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Cerrar Seccion"/>
+    
+
+</menu>

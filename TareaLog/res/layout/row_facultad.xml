@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_small" >
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/font_dark"
+        android:hint="@string/name"
+        android:textSize="@dimen/font_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cantidad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green_dark"
+        android:hint="@string/cant"
+        android:textSize="@dimen/font_medium" />
+    <TextView
+        android:id="@+id/alpre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pres"
+        android:textColor="@color/green_dark"
+        android:textSize="@dimen/font_medium" />
+
+    <TextView
+        android:id="@+id/alvir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vir"
+        android:textColor="@color/green_dark"
+        android:textSize="@dimen/font_medium" />
+
+    <TextView
+        android:id="@+id/alnomat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/noma"
+        android:textColor="@color/green_dark"
+        android:textSize="@dimen/font_medium" />
+    
+</LinearLayout>
